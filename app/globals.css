@@ -1,0 +1,66 @@
+/* ... existing code ... */
+
+/* <CHANGE> agregar estilos de temas */
+@layer base {
+  /* ... existing code ... */
+}
+
+/* Tema Cinema - Rojo y dorado */
+[data-theme="cinema"] {
+  --background: #0a0e27;
+  --foreground: #f5f5f5;
+  --card: #1a1f3a;
+  --card-foreground: #f5f5f5;
+  --primary: #dc2626;
+  --primary-foreground: #ffffff;
+  --secondary: #d4af37;
+  --secondary-foreground: #0a0e27;
+  --accent: #dc2626;
+  --accent-foreground: #ffffff;
+  --border: #2d2f47;
+}
+
+/* Tema Vintage - Sepia y marrón */
+[data-theme="vintage"] {
+  --background: #f5f1e8;
+  --foreground: #2c2c2c;
+  --card: #ede6d3;
+  --card-foreground: #2c2c2c;
+  --primary: #8b4513;
+  --primary-foreground: #f5f1e8;
+  --secondary: #d4a574;
+  --secondary-foreground: #2c2c2c;
+  --accent: #8b4513;
+  --accent-foreground: #f5f1e8;
+  --border: #d4c4b0;
+}
+
+/* Tema Light - Blanco y azul */
+[data-theme="light"] {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --card: #f9fafb;
+  --card-foreground: #1a1a1a;
+  --primary: #3b82f6;
+  --primary-foreground: #ffffff;
+  --secondary: #e5e7eb;
+  --secondary-foreground: #1a1a1a;
+  --accent: #3b82f6;
+  --accent-foreground: #ffffff;
+  --border: #e5e7eb;
+}
+
+/* Tema Dark - Gris oscuro (default) */
+[data-theme="dark"] {
+  --background: #0f0f0f;
+  --foreground: #f5f5f5;
+  --card: #1a1a1a;
+  --card-foreground: #f5f5f5;
+  --primary: #7c3aed;
+  --primary-foreground: #ffffff;
+  --secondary: #374151;
+  --secondary-foreground: #f5f5f5;
+  --accent: #7c3aed;
+  --accent-foreground: #ffffff;
+  --border: #2d2d2d;
+}
